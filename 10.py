@@ -8,5 +8,5 @@ def Tinh(R):
        print ("Chu vi la :", C)
        print ("Dien tich la :", S)
 
-r=float(input("Nhap ban kinh hinh tron: "))
+R = float(input("Nhap ban kinh hinh tron: "))
 Tinh(R)
