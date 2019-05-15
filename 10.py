@@ -1,6 +1,13 @@
 import math
-r = float(input("Nhap vao ban kinh hinh tron ---> "))
-chuvi = 2*math.pi*r
-dientich = math.pi*r*r
-print("Chu vi hinh tron co ban kinh {0} la ---> {1} ".format(r,chuvi))
-print("Dien tich hinh tron co ban kinh {0} la ---> {1} ".format(r,dientich))
+def Tinh(R):
+   if R<0:
+       print "Ban kinh khong nho hon 0"
+       print "Ban nhap khong hop le"
+   else:
+       C = 2*R*math.pi
+       S = R*R*math.pi
+       print ("Chu vi la :", C)
+       print ("Dien tich la :", S)
+
+r=float(input("Nhap ban kinh hinh tron: "))
+Tinh(R)
