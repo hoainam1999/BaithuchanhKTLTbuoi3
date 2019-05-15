@@ -1,8 +1,7 @@
 import math
 def Tinh(R):
    if R<0:
-       print "Ban kinh khong nho hon 0"
-       print "Ban nhap khong hop le"
+       print ("R khong hop le")
    else:
        C = 2*R*math.pi
        S = R*R*math.pi
